@@ -22,7 +22,7 @@ use utoipa::OpenApi;
         schemas(Numbers, Number)
     ),
     tags(
-        (name = "Rust REST API", description = "Authentication in Rust Endpoints")
+        (name = "API in memory", description = "An api that store numbers in memory"),
     ),
 )]
 struct ApiDoc;
