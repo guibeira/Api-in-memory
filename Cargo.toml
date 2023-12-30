@@ -1,0 +1,10 @@
+[workspace]
+members = [
+  "number_types",
+  "api",
+]
+
+
+[workspace.dependencies]
+# internal
+number_types = { version = "0.1.0", path = "./number_types" }
